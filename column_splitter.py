@@ -29,14 +29,14 @@ def column_splitter(excel_df, column_name, delimiter):
     export_df.to_excel("column_splitter_output.xlsx", index=False)
 
 def main():
-    excel_file_name="column_splitter_test.xlsx"
+    excel_file_path="column_splitter_test.xlsx"
     sheet_name="Sheet1"
     column_name="B"
     delimiter=";"
     dtype={
         column_name: str
     }
-    excel_df=pd.read_excel(excel_file_name, sheet_name=sheet_name, dtype=dtype)
+    excel_df=pd.read_excel(excel_file_path, sheet_name=sheet_name, dtype=dtype)
     column_splitter(excel_df, column_name, delimiter)
 
 if __name__ == '__main__':
