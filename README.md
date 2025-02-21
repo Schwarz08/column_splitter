@@ -5,3 +5,5 @@
 ### sheet_name: sheet containing column to be split
 ### column_name: column to be split
 ### delimiter: delimiter to split column with
+## Output:
+### file will be named as column_splitter_output
