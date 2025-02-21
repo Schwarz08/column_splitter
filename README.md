@@ -6,4 +6,4 @@
 ### column_name: column to be split
 ### delimiter: delimiter to split column with
 ## Output:
-### file will be named as column_splitter_output
+### Output file will be named as column_splitter_output
